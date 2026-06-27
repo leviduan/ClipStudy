@@ -44,13 +44,6 @@ A native macOS app for learning English with YouTube videos. Download videos wit
 
 ✅ The app is **code signed and notarized**, so it opens normally without macOS security warnings.
 
-## 🔑 Trial & Activation
-
-- Enjoy a **14-day free trial** on first launch.
-- After the trial expires, open the **About** page to view your **Machine ID**.
-- Send your Machine ID to the developer to receive an **activation key**.
-- The license is **lifetime** and **bound to your Mac**.
-
 ## 📮 Contact
 
 - **Email:** levi.duan.arts@gmail.com
