@@ -1,5 +1,9 @@
 # ClipStudy
 
+**中文** | [English](#english)
+
+---
+
 ## 用视频片段学英语的 macOS 工具
 
 ClipStudy 是一款专为英语学习者设计的 macOS 应用。你可以直接粘贴 YouTube 链接一键下载带字幕的视频，也可以把本地视频文件导入资料库，配合听写模式、AB 循环、倍速播放等功能，把每一段视频素材榨干用尽。
@@ -76,3 +80,104 @@ ClipStudy 是一款专为英语学习者设计的 macOS 应用。你可以直接
 - 激活码绑定本机，永久有效
 
 ---
+
+### 关于作者
+
+**levi.duan** — 独立开发者，把自己学英语的需求做成了这款工具。
+
+- Email：levi.duan.arts@gmail.com
+- Instagram：levi.duan
+- WeChat：86745690
+- Telegram：@Levitwan
+
+> 本应用下载 YouTube 视频仅用于个人英语学习目的，请勿用于商业用途或公开传播，并尊重视频原作者版权。
+
+---
+
+<a name="english"></a>
+
+## Learn English with Video Clips on macOS
+
+ClipStudy is a macOS app built for English learners. Paste a YouTube link to download a subtitled video in one click, or drop your own local video files into the library. Then use dictation mode, A-B loop, and variable speed playback to squeeze every last drop of learning out of each clip.
+
+---
+
+### Features
+
+#### 📥 One-Click YouTube Download
+Paste a YouTube URL and ClipStudy handles everything automatically:
+- Downloads the best available video and audio, merges them into a single MP4
+- Fetches English subtitles (including auto-generated captions)
+- Jumps straight to the library and starts playing when done
+- **Zero setup required** — yt-dlp, FFmpeg, and ffprobe are all bundled inside the app
+
+#### 📂 Import Local Videos & Subtitles
+You can also add your own files directly — no downloading needed:
+- Supported video formats: **MP4, MKV, MOV, WebM**
+- Subtitle files (**SRT, VTT**) are automatically matched to videos with the same filename
+- MKV files are remuxed on the fly using the bundled FFmpeg (stream copy only — no re-encoding, near-instant)
+
+#### ✍️ Dictation Mode
+One of the most effective ways to improve listening is to shadow and transcribe. Dictation mode is built exactly for this:
+- Automatically splits audio into complete sentences based on subtitle punctuation
+- Loops each sentence until you manually move on
+- Hide the subtitle text, listen carefully, then press "Reveal" to check your answer
+- Keyboard-driven: `←` previous · `→` next · `Enter` show/hide answer · `Space` play/pause
+
+#### 🔁 A-B Loop
+Set a start point (A) and an end point (B) to loop any segment indefinitely — perfect for drilling a tricky phrase or sentence.
+
+#### 🐢 Variable Speed Playback
+Six speed settings: 0.5×, 0.75×, 1×, 1.25×, 1.5×, 2×. Slow down to catch every word; speed up to review content you've already mastered.
+
+#### 📝 Live Subtitles
+Subtitles are displayed at the bottom of the video in real time. Toggle them on or off at any moment without interrupting playback.
+
+#### 🖥️ Fullscreen & Resizable Sidebar
+- One-click fullscreen for distraction-free study sessions
+- The video list sidebar is freely resizable by dragging (200–520 px)
+- Hide the sidebar entirely to maximize the video area; a small button in the top-left brings it back
+
+#### 🌐 Chinese / English Interface
+The UI language follows your system locale automatically (Chinese systems default to Chinese, everything else defaults to English). You can switch manually at any time from the menu in the top-right corner.
+
+---
+
+### Keyboard Shortcuts
+
+| Key | Action |
+|-----|--------|
+| `Space` | Play / Pause |
+| `←` | Previous sentence (dictation) / Back 5 s |
+| `→` | Next sentence (dictation) / Forward 5 s |
+| `Enter` | Show / Hide answer (dictation mode) |
+| `F` | Toggle fullscreen |
+| `⌘ Return` | Start download (Download tab) |
+
+---
+
+### Requirements
+
+- macOS — Apple Silicon and Intel both supported
+- No additional tools or dependencies to install
+
+---
+
+### Trial & Activation
+
+- Enjoy a **14-day free trial** on first launch — no account needed
+- After the trial, open the About page to find your machine code, then contact the author for a license key
+- License keys are tied to your machine and never expire
+
+---
+
+### About the Author
+
+**levi.duan** — indie developer, built this tool to solve his own English-learning problem.
+
+- Email: levi.duan.arts@gmail.com
+- Instagram: levi.duan
+- WeChat: 86745690
+- Telegram: @Levitwan
+
+> ClipStudy is intended for personal English-learning use only. Please do not use it for commercial purposes or redistribution, and always respect the copyright of original content creators.
