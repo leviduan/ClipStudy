@@ -1,65 +1,78 @@
 # ClipStudy
 
-A native macOS app for learning English with YouTube videos. Download videos with subtitles, practice sentence-by-sentence dictation, use A-B looping, and improve your listening skills at your own pace.
+## 用视频片段学英语的 macOS 工具
 
-## ✨ Features
+ClipStudy 是一款专为英语学习者设计的 macOS 应用。你可以直接粘贴 YouTube 链接一键下载带字幕的视频，也可以把本地视频文件导入资料库，配合听写模式、AB 循环、倍速播放等功能，把每一段视频素材榨干用尽。
 
-- 📥 **Download YouTube videos with subtitles**
-  - Automatically merges video and audio.
-  - Built-in **yt-dlp** and **FFmpeg** — no additional installation required.
+---
 
-- ✍️ **Dictation Mode**
-  - Automatically splits subtitles into complete sentences.
-  - Loops each sentence for focused practice.
-  - Show or hide the answer.
-  - Move through the video one sentence at a time.
+### 核心功能
 
-- 🔁 **A-B Loop**
-  - Repeat any segment of a video for intensive listening practice.
+#### 📥 一键下载 YouTube 视频
+粘贴 YouTube 链接，ClipStudy 自动完成以下所有步骤：
+- 下载最高画质视频与音频并合并为单个有声 MP4
+- 同步获取英文字幕（含自动生成字幕）
+- 下载完成后自动跳转资料库并开始播放
+- **无需安装任何依赖**：yt-dlp、FFmpeg、ffprobe 均已内置，装好 app 即可使用
 
-- 🐢 **Playback Speed**
-  - Adjustable from **0.5× to 2×**.
+#### 📂 导入本地视频与字幕
+除了下载，你也可以直接把视频文件放入 ClipStudy 的存储文件夹，app 会自动识别并加入资料库：
+- 支持格式：**MP4、MKV、MOV、WebM**
+- 字幕文件（**SRT、VTT**）与视频同名即可自动关联
+- MKV 文件会自动用内置 FFmpeg 快速转换（仅重封装，不重新编码，速度极快），无需手动转格式
 
-- 📝 **Subtitles**
-  - Show or hide subtitles at any time.
+#### ✍️ 听写模式
+学英语最有效的方式之一是「精听默写」——ClipStudy 的听写模式专为此而生：
+- 按字幕中的标点符号自动将音频切分为完整句子
+- 每句自动循环播放，直到你主动跳过
+- 可隐藏字幕文本，听完后按「显示答案」核对
+- 键盘快捷键：`←` 上一句 / `→` 下一句 / `Enter` 显示/隐藏答案 / `空格` 播放暂停
 
-- 🖥️ **Full-screen Mode**
-  - Includes a resizable sidebar.
+#### 🔁 A-B 循环
+对任意片段反复精听：
+- 点击 A 设置起点，点击 B 设置终点
+- 该区间将无限循环播放，适合拆解难点句子
 
-- 🌐 **Language**
-  - English and Chinese UI.
-  - Follows the system language or can be switched manually.
+#### 🐢 倍速播放
+支持 0.5×、0.75×、1×、1.25×、1.5×、2× 六档倍速，慢速练听力，快速复习已掌握的内容。
 
-## 💻 System Requirements
+#### 📝 实时字幕
+播放时在视频底部实时显示字幕，可随时一键隐藏/显示，不干扰听力练习。
 
-- macOS
-- Apple Silicon or Intel Mac
+#### 🖥️ 全屏与可调侧边栏
+- 一键全屏，进入沉浸式学习模式
+- 左侧视频列表栏可自由拖拽宽度（200–520px）
+- 侧边栏可隐藏，让视频区域更大；隐藏后点击左上角按钮随时唤出
 
-## 📦 Installation
+#### 🌐 中英文界面
+界面语言跟随系统自动设置（中文系统默认中文，其他默认英文），也可在任意页面右上角手动切换。
 
-1. Download **ClipStudy.dmg** from the Releases page.
-2. Open the DMG.
-3. Drag **ClipStudy** into the **Applications** folder.
-4. Launch the app.
+---
 
-✅ The app is **code signed and notarized**, so it opens normally without macOS security warnings.
+### 键盘快捷键
 
-## 📮 Contact
+| 按键 | 功能 |
+|------|------|
+| `空格` | 播放 / 暂停 |
+| `←` | 上一句（听写模式）/ 后退 5 秒 |
+| `→` | 下一句（听写模式）/ 前进 5 秒 |
+| `Enter` | 显示 / 隐藏答案（听写模式） |
+| `F` | 全屏 / 退出全屏 |
+| `⌘ Return` | 开始下载（下载页面） |
 
-- **Email:** levi.duan.arts@gmail.com
-- **Instagram:** @levi.duan
-- **WeChat:** 86745690
-- **Telegram:** @Levitwan
+---
 
-## ⚠️ Disclaimer
+### 系统要求
 
-This application is intended **for personal English-learning purposes only**.
+- macOS（Apple Silicon / Intel 均支持）
+- 无需额外安装任何工具
 
-Please do not use it for commercial purposes or redistribute downloaded content. Always respect the copyrights of the original content creators and comply with YouTube's Terms of Service.
+---
 
-## ❤️ Acknowledgements
+### 试用与激活
 
-ClipStudy includes and gratefully acknowledges these open-source projects:
+- 首次使用享 **14 天免费试用**，无需注册
+- 试用结束后，在「关于」页面查看你的机器码，联系作者获取激活码
+- 激活码绑定本机，永久有效
 
-- **yt-dlp**
-- **FFmpeg**
+---
