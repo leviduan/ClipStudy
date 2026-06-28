@@ -4,6 +4,13 @@
 
 ---
 
+Download link:
+https://github.com/leviduan/ClipStudy/releases/download/v1.0/ClipStudy.dmg
+
+CN download Link:
+链接: https://pan.baidu.com/s/1N9Fu_vAhHRla-OB8WHkWsQ?pwd=dzrh 提取码: dzrh 
+
+
 ## 用视频片段学英语的 macOS 工具
 
 ClipStudy 是一款专为英语学习者设计的 macOS 应用。你可以直接粘贴 YouTube 链接一键下载带字幕的视频，也可以把本地视频文件导入资料库，配合听写模式、AB 循环、倍速播放等功能，把每一段视频素材榨干用尽。
