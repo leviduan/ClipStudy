@@ -71,16 +71,6 @@ ClipStudy 是一款专为英语学习者设计的 macOS 应用。你可以直接
 - macOS（Apple Silicon / Intel 均支持）
 - 无需额外安装任何工具
 
----
-
-### 试用与激活
-
-- 首次使用享 **14 天免费试用**，无需注册
-- 试用结束后，在「关于」页面查看你的机器码，联系作者获取激活码
-- 激活码绑定本机，永久有效
-
----
-
 ### 关于作者
 
 **levi.duan** — 独立开发者，把自己学英语的需求做成了这款工具。
@@ -160,14 +150,6 @@ The UI language follows your system locale automatically (Chinese systems defaul
 
 - macOS — Apple Silicon and Intel both supported
 - No additional tools or dependencies to install
-
----
-
-### Trial & Activation
-
-- Enjoy a **14-day free trial** on first launch — no account needed
-- After the trial, open the About page to find your machine code, then contact the author for a license key
-- License keys are tied to your machine and never expire
 
 ---
 
